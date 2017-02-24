@@ -1,0 +1,24 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/main.scss"
+    ],
+    "customizer": [
+      "./scripts/customizer.js"
+    ]
+  },
+  "watch": [
+    "templates/**/*.php",
+    "src/**/*.php"
+  ],
+  "publicPath": "/app/themes/jadenbox",
+  "devUrl": "http://localhost:8080/Jadenbox/",
+  "proxyUrl": "http://localhost:3000",
+  "cacheBusting": "[name]_[hash:8]",
+  "browsers": [
+    "last 2 versions",
+    "android 4",
+    "opera 12"
+  ]
+}
